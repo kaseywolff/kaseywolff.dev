@@ -1,30 +1,21 @@
 import React, { useState, useRef } from 'react';
-import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+// import NavBar from './NavBar';
 
 // pages
-
-// context
-import { pageContext } from './context';
+import HomePage from './pages/HomePage';
 
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path='/' element={<RootLayout/>}>
-      <Route
-        path='/'
-        element={<MainPage key = 'MainPage' />}
-      />
-
-    </Route>
-  )
-)
-
-const App = () => {
-  const pageInfo = useRef(null);
-
+function App() {
   return (
-    <pageContext.Provider value={{pageInfo}}>
-      <RouterProvider router={router} />
-    </pageContext.Provider>
+    <>
+      <div>
+        <Routes>
+          <Route path='/' component={<HomePage />} />
+        </Routes>
+      </div>
+    </>
   )
 }
+
+export default App;
