@@ -7,9 +7,18 @@ body {
 .navBar {
   display: flex;
   justify-content: space-around;
-  border: 1px;
+  border: 1px, black;
+  background-color: aquamarine;
+  opacity: .2;
 }
 
 .navLink {
-  border: 1px, black;
+  margin: 5px;
+  padding: 2vh;
+  color: black;
+  text-decoration: none;
+  opacity: 1;
+}
+.navLink:hover {
+  opacity: 1;
 }
