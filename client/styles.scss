@@ -1,24 +1,25 @@
-body {
-  // background: darken(rgb(56, 97, 140), 25),
-  // background: rgb(66, 69, 84)
+// body {
+//   // background: darken(rgb(56, 97, 140), 25),
+//   // background: rgb(66, 69, 84)
   
+// }
+
+.navLink {
+  &:hover {
+    opacity: 1;
+    color:black;
+  };
+  margin: 5px;
+  padding: 2vh;
+  color: white;
+  text-decoration: none;
 }
 
 .navBar {
   display: flex;
   justify-content: space-around;
-  border: 1px, black;
-  background-color: #FFFFFF;
+  background-color: black;
   opacity: .5;
 }
 
-.navLink {
-  margin: 5px;
-  padding: 2vh;
-  color: black;
-  text-decoration: none;
-  opacity: 1;
-}
-.navLink:hover {
-  opacity: 1;
-}
+

@@ -4,6 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
+  mode: process.env.NODE_ENV,
   entry: './client/index.js', 
 
   output: {
@@ -11,24 +12,12 @@ module.exports = {
     filename: 'bundle.js'
   },
 
-  mode: process.env.NODE_ENV,
-
   plugins: [
     new HTMLWebpackPlugin({
       template: './client/index.html'
     }),
   ],
 
-  devServer: {
-    proxy: {
-      '/api/**': {
-        target: 'http://localhost:8080/',
-        secure: false,
-      },
-    },
-    // for react router
-    historyApiFallback: true
-  },
 
   module: {
     rules: [
@@ -45,16 +34,36 @@ module.exports = {
       {
         test: /.(css|s[ac]ss)$/i,
         use: [
+          // Creates `style` nodes from JS strings
           "style-loader",
+          // Translates CSS into CommonJS
           "css-loader",
+          // Compiles Sass to CSS
           "sass-loader",
         ],
       },
-    ]
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+    ],
+
   },
 
   resolve: {
     extensions: ['.js', '.jsx']
-  }
+  },
 
+  devServer: {
+    port: 8080,
+    hot: true,
+    static: {
+      publicPath: '/',
+      directory: path.join(__dirname, 'build')
+    }
+  }
 }
