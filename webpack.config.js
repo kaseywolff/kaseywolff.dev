@@ -6,12 +6,10 @@ module.exports = {
 
   mode: process.env.NODE_ENV,
   entry: './client/index.js', 
-
   output: {
     path: path.join(__dirname, '/dist'),
     filename: 'bundle.js'
   },
-
   plugins: [
     new HTMLWebpackPlugin({
       template: './client/index.html'
@@ -34,36 +32,29 @@ module.exports = {
       {
         test: /.(css|s[ac]ss)$/i,
         use: [
-          // Creates `style` nodes from JS strings
           "style-loader",
-          // Translates CSS into CommonJS
           "css-loader",
-          // Compiles Sass to CSS
           "sass-loader",
         ],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
-      },
+        test: /\.(png|jpg|gif)$/i,
+        type: 'asset/resource'
+      },,
     ],
 
   },
 
   resolve: {
     extensions: ['.js', '.jsx']
-  },
-
-  devServer: {
-    port: 8080,
-    hot: true,
-    static: {
-      publicPath: '/',
-      directory: path.join(__dirname, 'build')
-    }
   }
+
+  // devServer: {
+  //   port: 8080,
+  //   hot: true,
+  //   static: {
+  //     publicPath: '/',
+  //     directory: path.join(__dirname, 'build')
+  //   }
+  // }
 }

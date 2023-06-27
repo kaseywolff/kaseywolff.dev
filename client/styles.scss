@@ -1,8 +1,13 @@
-// body {
-//   // background: darken(rgb(56, 97, 140), 25),
-//   // background: rgb(66, 69, 84)
-  
-// }
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;  
+}
+
+h1 {
+  font-weight: 100;
+}
 
 .navLink {
   &:hover {
