@@ -1,21 +1,49 @@
-// Import necessary modules
 const express = require('express');
 const path = require('path');
 
-// Create an Express app
+
+const PORT = 3000;
+
 const app = express();
 
-// Serve static files
-app.use(express.static(path.join(__dirname, 'dist')));
 
-// Define API routes or other server routes here
+app.use(express.json());
+app.use(express.urlencoded());
 
-// Catch-all route for client-side routing
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+
+// HOME PAGE
+  // home page allows users to play without signing in
+app.get('/',
+  (req, res) => {
+    res.status(202).sendFile(path.join(__dirname, '../client/index.html'))
+  }
+)
+
+
+// ABOUT
+app.get('/about',
+  (req, res) => {
+    return res.status(202).sendFile(path.join(__dirname, '../client/index.js'))
+  }
+)
+
+
+
+/**
+ * 404 handler
+ */
+app.use('*', (req,res) => {
+  res.status(404).send('Not Found');
 });
 
-// Start the server
-app.listen(8080, () => {
-  console.log('Server is running on port 8080');
+/**
+ * Global error handler
+ */
+app.use((err, req, res, next) => {
+  console.log(err);
+  res.status(500).send({ error: err });
 });
+
+app.listen(PORT, ()=>{ console.log(`Beep boop 🤖 Listening on port ${PORT}...`); });
+
+module.exports = app;

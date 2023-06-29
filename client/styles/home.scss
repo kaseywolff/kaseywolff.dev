@@ -1,3 +1,56 @@
-.coverPhoto {
-  width: 100%;
+.cover {
+  display: flex;
+  justify-content: center;
 }
+
+.backgroundPhoto {
+  width: 100%;
+};
+
+.geoGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.mainPhoto {
+  width: 40%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+};
+
+.overlays {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+};
+
+.overlayL {
+  width: 30%;
+  filter: contrast(200%);
+  opacity: .5;
+};
+
+.overlayR {
+  width: 30%;
+  filter:grayscale(80%);
+  opacity: .5;
+};
+
+
+// mobile
+// .mainPhoto {
+//   width: 40%
+// };
+
+// .overlayL {
+//   width: 30%;
+//   filter: contrast(200%);
+//   opacity: .5;
+// };
+
+// .overlayR {
+//   width: 30%;
+//   filter:grayscale(80%);
+//   opacity: .5;
+// };

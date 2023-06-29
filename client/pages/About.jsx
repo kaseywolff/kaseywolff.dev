@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/home.scss';
+import '../styles/about.scss';
 import profile from '../assets/images/profile.jpg';
 
 function About() {
   return(
     <div className='aboutPage'>
-      <h1>About</h1>
       <img className='profilePhoto' src={profile} alt={'headshot'} />
+      <h1>About</h1>
       <div className='aboutInfo'>
         <p className='p1'>Hello!</p>
 
