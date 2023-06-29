@@ -6,7 +6,7 @@ function NavBar() {
   <div className="navBar">
     <NavLink to='/' className='navLink'>home</NavLink>
     <NavLink to='/about' className='navLink'>about</NavLink>
-    <NavLink to='/backpack' className='navLink'>backpack</NavLink>
+    <NavLink to='/backpack' className='navLink' data-replace='backpack'>backpack</NavLink>
     <NavLink to='/camera' className='navLink'>camera</NavLink>
   </div>
   );

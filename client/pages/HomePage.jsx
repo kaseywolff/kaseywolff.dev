@@ -10,23 +10,26 @@ function HomePage() {
   return(
     <div className='homePage'>
       {/* <img src={coverPhoto} atl={'cover photo'} className='coverPhoto' /> */}
-      <div className='cover'>
+      {/* <div className='cover'> */}
 
         <div className='geoGroup'>
-          <div className='mainPhoto'>
-            <img src={main} alt={'main photo'} />
-          </div>
+          {/* <div className='mainPhoto'> */}
+          {/* </div> */}
+          
+          <img src={main} alt={'main photo'} className='mainPhoto' />
         
           <div className='overlays'>
             <img src={overlay} alt={'overlay right'} className='overlayL' />
             <img src={overlay} alt={'overlay right'} className='overlayR' />
           </div>
+
         </div>
 
-      </div>
+            
+      {/* </div> */}
         <img src={background} alt='background photo' className='backgroundPhoto' />
 
-      <h1>Home!</h1>
+      <h1>Coding. Creating. Exploring.</h1>
     </div>
   );
 };

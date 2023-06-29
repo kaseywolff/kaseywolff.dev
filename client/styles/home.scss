@@ -1,25 +1,38 @@
-.cover {
-  margin: 0 auto;
-  display: grid;
-  justify-content: center;
-}
+@import 'colorpalette';
+
+// .cover {
+//   display: grid;
+//   justify-items: center;
+// }
+
 
 .backgroundPhoto {
   width: 100%;
+  height: 80vh;
+  position: fixed;
+  top: 0px;
+  object-fit: cover;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 0;
 };
-
-.geoGroup {
-  display: grid;
-  width: 100%;
-}
 
 .mainPhoto {
   width: 40%;
-  display: flex;
-  align-self: center;
   grid-row: 1;
   grid-column: 1;
+  z-index: 3;
 };
+
+.geoGroup {
+  max-height: 50vh;
+  display: grid;
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  padding-top: 20vh;
+}
+
 
 .overlays {
   display: flex;
@@ -27,19 +40,31 @@
   justify-content: center;
   grid-row: 1;
   grid-column: 1;
+  opacity: .5;
+  z-index: 2;
 };
 
 .overlayL {
-  width: 30%;
-  filter: contrast(200%);
-  opacity: .5;
+  width: 25%;
 };
 
 .overlayR {
-  width: 30%;
-  filter:grayscale(80%);
+  width: 25%;
   opacity: .5;
 };
+
+
+/* <----- TEXT -----> */
+.text {
+  background-color: white;
+  z-index: 2;
+}
+
+h1 {
+  position: absolute;
+  background-color: white;
+  font-size: 10vh;
+}
 
 
 // mobile
