@@ -13,8 +13,9 @@ function HomePage() {
       <div className='cover'>
 
         <div className='geoGroup'>
-
-          <img src={main} alt={'main photo'} className='mainPhoto' />
+          <div className='mainPhoto'>
+            <img src={main} alt={'main photo'} />
+          </div>
         
           <div className='overlays'>
             <img src={overlay} alt={'overlay right'} className='overlayL' />
@@ -22,8 +23,8 @@ function HomePage() {
           </div>
         </div>
 
-        <img src={background} alt='background photo' className='backgroundPhoto' />
       </div>
+        <img src={background} alt='background photo' className='backgroundPhoto' />
 
       <h1>Home!</h1>
     </div>

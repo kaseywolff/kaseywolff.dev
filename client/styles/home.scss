@@ -1,5 +1,6 @@
 .cover {
-  display: flex;
+  margin: 0 auto;
+  display: grid;
   justify-content: center;
 }
 
@@ -8,21 +9,24 @@
 };
 
 .geoGroup {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  width: 100%;
 }
 
 .mainPhoto {
   width: 40%;
   display: flex;
   align-self: center;
-  justify-content: center;
+  grid-row: 1;
+  grid-column: 1;
 };
 
 .overlays {
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-row: 1;
+  grid-column: 1;
 };
 
 .overlayL {
