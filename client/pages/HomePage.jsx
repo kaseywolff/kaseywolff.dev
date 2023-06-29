@@ -29,7 +29,7 @@ function HomePage() {
       {/* </div> */}
         <img src={background} alt='background photo' className='backgroundPhoto' />
 
-      <h1>Coding. Creating. Exploring.</h1>
+      <div className='homeHeader'>Coding. Creating. Exploring.</div>
     </div>
   );
 };
