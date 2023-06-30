@@ -7,27 +7,28 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-}
+};
 
 h1 {
   font-weight: 100;
-}
+};
 
 .navBar {
   position: fixed;
+  top: 0px;
   display: flex;
   justify-content: space-around;
   background-color: $navy;
   padding: .2%;
   width: 100%;
   z-index: 9999;
-  opacity: .8;
+  // opacity: .8;
 }
 
 .navLink {
   font-size: 90%;
-  // margin: 5px;
-  padding: 2vh;
+  margin: 2vh;
+  padding: 1vh;
   color: white;
   text-decoration: none;
   overflow: hidden;
@@ -43,7 +44,7 @@ h1 {
   left: 0;
 }
 .navLink::before {
-  background-color: $yellow;
+  background-color: $blue;
   height: 2px;
   bottom: 0;
   transform-origin: 100% 50%;

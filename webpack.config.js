@@ -47,14 +47,33 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx']
-  }
+  },
 
-  // devServer: {
-  //   port: 8080,
-  //   hot: true,
-  //   static: {
-  //     publicPath: '/',
-  //     directory: path.join(__dirname, 'build')
-  //   }
-  // }
+
+  devServer: {
+    // host: 'localhost',
+    // port: 8080,
+    // // enable HMR on the devServer
+    // hot: true,
+    // // fallback to root for other urls
+    // historyApiFallback: true,
+
+    // static: {
+    //   // match the output path
+    //   directory: path.resolve(__dirname, 'dist'),
+    //   // match the output 'publicPath'
+    //   publicPath: '/',
+    // },
+
+    // headers: { 'Access-Control-Allow-Origin': '*' },
+
+    proxy: {
+      'api/*': {
+        target: 'http://localhost:8080/',
+        secure: false,
+      },
+    },
+    // for react router if you use it
+    historyApiFallback: true
+  },
 }
