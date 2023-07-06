@@ -9,7 +9,7 @@ body {
   margin: 0;
 };
 
-h1 {
+.title-b {
   font-weight: 100;
   font-size: 2em;
   // color: $green;
@@ -23,7 +23,7 @@ h1 {
   background-color: white;
 };
 
-h2 {
+.title-proj {
   font-weight: 100;
   font-size: 2em;
   // color: $green;
@@ -37,7 +37,7 @@ h2 {
   z-index: 2;
   background-color: white;};
 
-h3 {
+.title-ts {
   font-weight: 100;
   font-size: 2em;
   // color: $green;
@@ -55,10 +55,10 @@ p {
   padding-left: 3%;
 }
 
-.backpack {
-  display: flex;
-  flex-direction: column;
-}
+// .backpack {
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .bg-b {
   position: fixed;
@@ -81,6 +81,11 @@ p {
   padding: 3%;
   padding-top: 60vh;
   z-index: 1;
+
+  max-width: 900px;
+  justify-self: center;
+  background-color: white;
+  z-index: 3;
 };
 
 .project-container {

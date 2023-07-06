@@ -10,15 +10,15 @@ function Backpack() {
       <img src={background} alt='background image' className='bg-b' />
 
       <div className='scrollDiv-b'>
-        <h1>Backpack</h1>
+        <h1 className='title-b'>Backpack</h1>
           <p>Tech stack and projects I've launched or am working on.</p>
         <div className='project-container'>
-          <h2>Projects</h2>
+          <h2 className='title-proj'>Projects</h2>
 
         </div>
 
         <div className='techStack-container'>
-          <h3>Tech Stack</h3>
+          <h2 className='title-ts'>Tech Stack</h2>
         </div>
       </div>
     </div>
