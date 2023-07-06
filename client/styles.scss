@@ -18,7 +18,7 @@ h1 {
   top: 0px;
   display: flex;
   justify-content: space-around;
-  background-color: $navy;
+  background-color: $verdigris;
   padding: .2%;
   width: 100%;
   z-index: 9999;
@@ -44,7 +44,7 @@ h1 {
   left: 0;
 }
 .navLink::before {
-  background-color: $blue;
+  background-color: $lightgrey;
   height: 2px;
   bottom: 0;
   transform-origin: 100% 50%;

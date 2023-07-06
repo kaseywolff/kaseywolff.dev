@@ -42,47 +42,59 @@ body {
   margin-bottom: 5vh;
 };
 
-// .text-a {
-//   position: relative;
-//   transform: translateY(100%);
-//   background-color: white;
-//   opacity: 1;
-//   color: black;
-//   display: flex;
-//   flex-direction: column;
-//   // justify-content: flex-start;
-//   padding: 5%;
-//   padding-top: 0;
-// };
-
 .aboutInfo {
   max-width: 900px;
   padding: 3%;
   padding-top: 0;
   justify-self: center;
   background-color: white;
-  z-index: 2;
+  z-index: 3;
 };
 
 .title-a {
   font-weight: 100;
   font-size: 2em;
-  color: $green;
+  // color: $green;
+  // text-decoration: underline, ;
   // padding: 3%;
   padding-top: 1%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
   margin: 0;
   align-self: left;
   z-index: 2;
   background-color: white;
 }
 
-.p1 {
+.sub1 {
   font-weight: 100;
   font-size: 3em;
   margin: 0;
+  background-color: white;
 };
 
-.p2 {
+.sub2 {
+  margin-top: 6vh;
+  font-size: 1.5em;
+  font-weight: 100;
+  background-color: white;
+}
+
+p {
   padding: 1%;
+  background-color: white;
+};
+
+.textLink {
+  &:link {
+    // font-weight: 100;
+    text-decoration: none;
+    color: $blue;
+  };
+  &:visited {
+    text-decoration: none;
+    color: $blue;
+  };
+  &:hover {
+    color: $rose;
+  };
 };
