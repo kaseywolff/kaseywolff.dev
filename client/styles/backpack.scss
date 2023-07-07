@@ -44,7 +44,7 @@ body {
 };
 
 .title-proj {
-  font-weight: 100;
+  // font-weight: 100;
   font-size: 2em;
   padding: 4%;
   padding-left: 0;
@@ -55,7 +55,7 @@ body {
 };
 
 .title-ts {
-  font-weight: 100;
+  // font-weight: 100;
   font-size: 2em;
   padding: 4%;
   padding-top: 6%;
@@ -97,13 +97,17 @@ body {
 }
 .project-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #single-project {
   display: flex;
+  flex: 1 0 300px;
   flex-direction: column;
   background-color: $lightgrey;
   padding: 4%;
+  margin: 2%;
   border-radius: 20px;
   min-width: 300px;
 }

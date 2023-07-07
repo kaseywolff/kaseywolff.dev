@@ -3,7 +3,8 @@ import '../styles/backpack.scss';
 // import images
 import background from '../assets/images/backpack.jpg';
 // import gifs
-import recoilize from '../assets/gifs/recoilize.gif'
+import recoilize from '../assets/gifs/recoilize.gif';
+import codesweeper from '../assets/gifs/codesweeper.gif';
 // import logos
 import aws from '../assets/logos/aws-logo.png';
 import css from '../assets/logos/css-logo.png';
@@ -47,11 +48,19 @@ function Backpack() {
               Recoilize is a Chrome Dev Tool designed for debugging applications built with the Recoil.js state management library.
               </p>
               <p className='project-description'>
-                <a href='https://www.recoilize.io/' className='textLink'> landing page </a>
+                <a href='https://www.recoilize.io/' className='textLink'> landing page  </a>
                  | 
-                <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='textLink'> chrome extension </a>
+                <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='textLink'>  chrome extension  </a>
                  | 
-                <a href='https://www.npmjs.com/package/recoilize' className='textLink'> npm package </a>
+                <a href='https://www.npmjs.com/package/recoilize' className='textLink'>  npm package  </a>
+              </p>
+            </div>
+
+            <div id='single-project'>
+              <h3 className='prject-name'>Codesweeper</h3>
+              <img src={codesweeper} className='project-screenshot' />
+              <p className='project-description'>
+              An elevated, cleaner version of the classic minesweeper game - for coders.
               </p>
             </div>
 
