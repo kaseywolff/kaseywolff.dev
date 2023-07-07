@@ -41,10 +41,17 @@ function Backpack() {
           <h2 className='title-proj'>Projects</h2>
           <div className='project-list'>
             <div id='single-project'>
-              <h3 className='prject-name'>Recoilize</h3>
+              <h3 href='https://www.recoilize.io/'className='prject-name'>Recoilize</h3>
               <img src={recoilize} className='project-screenshot' />
               <p className='project-description'>
               Recoilize is a Chrome Dev Tool designed for debugging applications built with the Recoil.js state management library.
+              </p>
+              <p className='project-description'>
+                <a href='https://www.recoilize.io/' className='textLink'> landing page </a>
+                 | 
+                <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='textLink'> chrome extension </a>
+                 | 
+                <a href='https://www.npmjs.com/package/recoilize' className='textLink'> npm package </a>
               </p>
             </div>
 
@@ -81,7 +88,6 @@ function Backpack() {
             <img src={css} alt='logo' className='logo' />
             <img src={sass} alt='logo' className='logo' />
             <img src={d3} alt='logo' className='logo' />
-
           </div>
         </div>
       </div>

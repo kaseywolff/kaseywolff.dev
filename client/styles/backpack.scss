@@ -12,20 +12,15 @@ body {
 .backpack {
   display: flex;
   justify-content: center;
-}
+};
 
 .scrollDiv-b {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // min-width: 360px;
-  // align-items: center;
   width: 100%;
-  // height: 100%;
-  padding: 3%;
+  max-width: 900px;
   padding-top: 60vh;
-  // z-index: 1;
-
   max-width: 900px;
   justify-self: center;
   z-index: 3;
@@ -34,16 +29,13 @@ body {
 .blank {
   height: 60%;
   position: relative;
-}
+};
 
 .title-b {
   font-weight: 100;
   font-size: 2em;
-  // color: $green;
-  // text-decoration: underline, ;
   max-width: 900px;
   padding: 3%;
-  padding-top: 1%;
   padding-bottom: 0;
   margin: 0;
   align-self: left;
@@ -54,10 +46,6 @@ body {
 .title-proj {
   font-weight: 100;
   font-size: 2em;
-  // color: $green;
-  // text-decoration: underline, ;
-  // padding: 3%;
-  // padding-top: 1%;
   padding: 4%;
   padding-left: 0;
   margin: 0;
@@ -69,10 +57,8 @@ body {
 .title-ts {
   font-weight: 100;
   font-size: 2em;
-  // color: $green;
-  // text-decoration: underline, ;
-  // padding: 3%;
   padding: 4%;
+  padding-top: 6%;
   padding-left: 0;
   margin: 0;
   align-self: left;
@@ -81,22 +67,17 @@ body {
 };
 
 .p-b {
+  font-weight: 100;
   margin: 0;
   padding: 3%;
   padding-top: 1%;
   background-color: white;
   z-index: 3;
-}
-
-// // .backpack {
-// //   display: flex;
-// //   flex-direction: column;
-// // }
+};
 
 .bg-b {
   position: fixed;
   width: 100%;
-  // opacity: 50%;
   top: 0px;
   z-index: 0;
   height: 60%;
@@ -115,20 +96,23 @@ body {
   z-index: 3;
 }
 .project-list {
-
+  display: flex;
 }
 
 #single-project {
   display: flex;
   flex-direction: column;
   background-color: $lightgrey;
-  padding: 2%;
+  padding: 4%;
   border-radius: 20px;
-
+  min-width: 300px;
 }
 
 .prject-name {
   font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding-bottom: 2%;
 }
 
 .project-screenshot {
@@ -136,10 +120,12 @@ body {
   justify-self: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 2%;
 }
 
 .project-description {
-
+  margin: 0;
+  padding-top: 2%;
 }
 
 .techStack-container {
