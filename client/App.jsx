@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Backpack from  './pages/Backpack';
@@ -18,6 +19,7 @@ function App() {
           <Route path='/camera' element={<Camera />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 };

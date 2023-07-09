@@ -9,7 +9,7 @@ function Footer() {
         {/* <img src={github} id='github' href='https://github.com/kaseywolff' /> */}
         {/* <img src={linkedin} id='linkedin' /> */}
       </div>
-      <p id='copyright'>(c) 2022 Kasey Wolff</p>
+      <p id='copyright'>© 2022 Kasey Wolff</p>
     </div>
   );
 };  

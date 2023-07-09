@@ -4,7 +4,8 @@ import '../styles/home.scss';
 import background from '../assets/images/bend-sunset-bg.jpg';
 import main from '../assets/images/main-cover.png';
 import overlays from '../assets/images/geo-back.png';
-
+// import footer
+import Footer from '../components/Footer'
 
 
 
@@ -24,7 +25,7 @@ function HomePage() {
           <h1 id='slogan'>Coding. Creating. Exploring.</h1>
         </div>
       </div>
-
+      {/* <Footer /> */}
     </div>
   );
 };

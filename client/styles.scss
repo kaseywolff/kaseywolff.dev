@@ -60,3 +60,15 @@ h1 {
 .navLink:hover::after {
   transform: translate3d(0, 0, 0);
 }
+
+
+// FOOTER 
+
+.footer {
+  display: flex;
+  background-color: $lightgrey;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
