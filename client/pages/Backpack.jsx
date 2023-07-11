@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import '../styles/backpack.scss';
 // import images
 import background from '../assets/images/backpack.jpg';
@@ -100,6 +101,7 @@ function Backpack() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

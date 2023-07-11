@@ -25,7 +25,7 @@ function HomePage() {
           <h1 id='slogan'>Coding. Creating. Exploring.</h1>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

@@ -19,7 +19,7 @@ function App() {
           <Route path='/camera' element={<Camera />} />
         </Routes>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

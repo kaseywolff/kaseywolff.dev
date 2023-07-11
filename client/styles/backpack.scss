@@ -11,7 +11,9 @@ body {
 
 .backpack {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 };
 
 .scrollDiv-b {
@@ -136,6 +138,7 @@ body {
   max-width: 900px;
   padding: 3%;
   padding-top: 0;
+  padding-bottom: 10vh;
   justify-self: center;
   background-color: white;
   z-index: 3;
