@@ -34,7 +34,7 @@ function About() {
                 Fun facts about me
               </h2>
               <p className='p-a'>
-                I love camping, hiking, backpacking, bouldering, and skiing. I also enjoy capturing the beauty of nature through <a href='/camera' className='textLink'>photography</a>. Painting is cool too.
+                I love camping, hiking, backpacking, bouldering, and skiing. I also enjoy capturing the beauty of nature through photography. Painting is cool too.
               </p>
               <p className='p-a'>
                 I lived full time in a van for 7 months, and traveled to 25 National Parks and 30 US states/ Canadian Provinces. I've also hiked 250 miles of the Pacific Crest Trail, from Cascade Locks (Washington/ Oregon border) to Snoqualmie Pass, WA. 

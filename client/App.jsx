@@ -5,7 +5,8 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Backpack from  './pages/Backpack';
-import Camera from './pages/Camera';
+import Map from './pages/Map';
+// import Camera from './pages/Camera';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<About />} />
           <Route path='/backpack' element={<Backpack />} />
-          <Route path='/camera' element={<Camera />} />
+          <Route path='/map' element={<Map />} />
+          {/* <Route path='/camera' element={<Camera />} /> */}
         </Routes>
       </div>
       {/* <Footer /> */}

@@ -4,3 +4,12 @@
 // import color palett
 @import 'colorpalette.scss';
 
+#bg-m {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 0;
+  height: 60%;
+  object-fit: cover;
+  object-position: 40% 20%;
+};

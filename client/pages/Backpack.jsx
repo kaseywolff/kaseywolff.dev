@@ -43,35 +43,42 @@ function Backpack() {
         <div className='projects-container'>
           <h2 className='title-proj'>Projects</h2>
           <div className='project-list'>
-            <div id='single-project'>
-              <h3 href='https://www.recoilize.io/'className='prject-name'>Recoilize</h3>
-              <img src={recoilize} className='project-screenshot' />
-              <p className='project-description'>
-              Recoilize is a Chrome Dev Tool designed for debugging applications built with the Recoil.js state management library.
-              </p>
-              <p className='project-description'>
-                <a href='https://www.recoilize.io/' className='textLink'> landing page  </a>
-                 | 
-                <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='textLink'>  chrome extension  </a>
-                 | 
-                <a href='https://www.npmjs.com/package/recoilize' className='textLink'>  npm package  </a>
-              </p>
+
+            <div id='project-list'>
+
+              <div id='single-project'>
+                <h3 href='https://www.recoilize.io/'className='prject-name'>Recoilize</h3>
+                <img src={recoilize} className='project-screenshot' />
+                <p className='project-description'>
+                Recoilize is a Chrome Dev Tool designed for debugging applications built with the Recoil.js state management library.
+                </p>
+                <p className='project-description'>
+                  <a href='https://www.recoilize.io/' className='textLink'> landing page  </a>
+                  | 
+                  <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='textLink'>  chrome extension  </a>
+                  | 
+                  <a href='https://www.npmjs.com/package/recoilize' className='textLink'>  npm package  </a>
+                </p>
+              </div>
             </div>
 
-            <div id='single-project'>
-              <h3 className='prject-name'>Codesweeper</h3>
-              <img src={codesweeper} className='project-screenshot' />
-              <p className='project-description'>
-              An elevated, cleaner version of the classic minesweeper game - for coders.
-              </p>
-            </div>
+            <div className='project-list'>
 
-            <div id='single-project'>
-              <h3 className='prject-name'>Star Guides</h3>
-              <img src={starguides} className='project-screenshot' />
-              <p className='project-description'>
-              A customer relationship management tool to manage and organize client trips to national parks.
-              </p>
+              <div id='single-project'>
+                <h3 className='prject-name'>Codesweeper</h3>
+                <img src={codesweeper} className='project-screenshot' />
+                <p className='project-description'>
+                An elevated, cleaner version of the classic minesweeper game - for coders.
+                </p>
+              </div>
+
+              <div id='single-project'>
+                <h3 className='prject-name'>Star Guides</h3>
+                <img src={starguides} className='project-screenshot' />
+                <p className='project-description'>
+                A customer relationship management tool to manage and organize client trips to national parks.
+                </p>
+              </div>
             </div>
 
             {/* <div id='single-project'>
