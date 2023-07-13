@@ -4,14 +4,23 @@
 // import color palett
 @import 'colorpalette.scss';
 
-#bg-m {
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  z-index: 0;
-  height: 60%;
-  object-fit: cover;
-  // object-position: 40% 20%;
-  object-position: 50% 30%;
 
+#bg-m {
+  width: 100%;
+  height: 100%;
+  // position: fixed;
+  top: 0px;
+  bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  object-fit: cover;
+  object-position: 60%;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 0;
 };
+
+#resume {
+  display: flex;
+  z-index: 1;
+}
