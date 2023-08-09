@@ -1,7 +1,7 @@
 // import fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
 
-// import color palett
+// import color palette
 @import 'colorpalette.scss';
 
 body {
@@ -28,11 +28,6 @@ body {
   z-index: 3;
 };
 
-// .blank {
-//   height: 60%;
-//   position: relative;
-// };
-
 .title-b {
   font-weight: 100;
   font-size: 2em;
@@ -46,7 +41,6 @@ body {
 };
 
 .title-proj {
-  // font-weight: 100;
   font-size: 2em;
   padding: 4%;
   padding-left: 0;
@@ -57,7 +51,6 @@ body {
 };
 
 .title-ts {
-  // font-weight: 100;
   font-size: 2em;
   padding: 4%;
   padding-top: 6%;
@@ -87,8 +80,6 @@ body {
   object-position: 60% 70%;
 };
 
-
-
 .projects-container {
   max-width: 900px;
   padding: 3%;
@@ -96,12 +87,13 @@ body {
   justify-self: center;
   background-color: white;
   z-index: 3;
-}
+};
+
 .project-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+};
 
 #single-project {
   display: flex;
@@ -112,14 +104,14 @@ body {
   margin: 2%;
   border-radius: 20px;
   min-width: 300px;
-}
+};
 
 .prject-name {
   font-size: 2em;
   font-weight: 100;
   margin: 0;
   padding-bottom: 2%;
-}
+};
 
 .project-screenshot {
   max-width: 90%;
@@ -127,12 +119,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 2%;
-}
+};
 
 .project-description {
   margin: 0;
   padding-top: 2%;
-}
+};
 
 .techStack-container {
   max-width: 900px;
@@ -142,16 +134,16 @@ body {
   justify-self: center;
   background-color: white;
   z-index: 3;
-}
+};
 
 .logo-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+};
 
 .logo {
   max-height: 6vh;
   margin: 2%;
-}
+};

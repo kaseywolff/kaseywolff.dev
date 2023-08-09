@@ -13,7 +13,7 @@ function HomePage() {
   return(
     <div className='homePage'>
 
-        <img src={background} alt='background image' className='backgroundPhoto' />
+      <img src={background} alt='background image' className='backgroundPhoto' />
 
       <div className='scrollDiv'>
         <div id='geoGroup'>

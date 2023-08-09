@@ -1,7 +1,7 @@
 // import fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
 
-// import color palett
+// import color palette
 @import 'colorpalette.scss';
 
 body {
@@ -12,7 +12,6 @@ body {
 .backgroundPhoto-a {
   position: fixed;
   width: 100%;
-  // min-width: 600px;
   top: 0px;
   z-index: 0;
   height: 60%;
@@ -25,11 +24,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // width: 100%;
-  // height: 100%;
-  // padding: 5%;
   z-index: 1;
-}
+};
 
 .profilePhoto {
   position: relative;
@@ -54,16 +50,13 @@ body {
 .title-a {
   font-weight: 100;
   font-size: 2em;
-  // color: $green;
-  // text-decoration: underline, ;
-  // padding: 3%;
   padding-top: 1%;
   padding-bottom: 4%;
   margin: 0;
   align-self: left;
   z-index: 2;
   background-color: white;
-}
+};
 
 .sub1 {
   font-weight: 100;
@@ -86,7 +79,6 @@ body {
 
 .textLink {
   &:link {
-    // font-weight: 100;
     text-decoration: none;
     color: $blue;
   };

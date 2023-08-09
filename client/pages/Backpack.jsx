@@ -36,7 +36,6 @@ function Backpack() {
       <img src={background} alt='background image' className='bg-b' />
 
       <div className='scrollDiv-b'>
-        {/* <div className='blank'></div> */}
         <h1 className='title-b'>Backpack</h1>
           <p className='p-b'>Tech stack and projects.</p>
 
@@ -80,14 +79,6 @@ function Backpack() {
                 </p>
               </div>
             </div>
-
-            {/* <div id='single-project'>
-              <h3 className='prject-name'>NAME</h3>
-              <img className='project-screenshot' />
-              <p className='project-description'>
-              DESCRIPTION
-              </p>
-            </div> */}
 
           </div>
         </div>
