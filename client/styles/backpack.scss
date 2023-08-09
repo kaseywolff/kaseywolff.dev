@@ -1,0 +1,157 @@
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+// import color palett
+@import 'colorpalette.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+};
+
+.backpack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+};
+
+.scrollDiv-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  padding-top: 60vh;
+  max-width: 900px;
+  justify-self: center;
+  z-index: 3;
+};
+
+// .blank {
+//   height: 60%;
+//   position: relative;
+// };
+
+.title-b {
+  font-weight: 100;
+  font-size: 2em;
+  max-width: 900px;
+  padding: 3%;
+  padding-bottom: 0;
+  margin: 0;
+  align-self: left;
+  z-index: 2;
+  background-color: white;
+};
+
+.title-proj {
+  // font-weight: 100;
+  font-size: 2em;
+  padding: 4%;
+  padding-left: 0;
+  margin: 0;
+  align-self: left;
+  z-index: 2;
+  background-color: white;
+};
+
+.title-ts {
+  // font-weight: 100;
+  font-size: 2em;
+  padding: 4%;
+  padding-top: 6%;
+  padding-left: 0;
+  margin: 0;
+  align-self: left;
+  z-index: 2;
+  background-color: white;
+};
+
+.p-b {
+  font-weight: 100;
+  margin: 0;
+  padding: 3%;
+  padding-top: 1%;
+  background-color: white;
+  z-index: 3;
+};
+
+.bg-b {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 0;
+  height: 60%;
+  object-fit: cover;
+  object-position: 60% 70%;
+};
+
+
+
+.projects-container {
+  max-width: 900px;
+  padding: 3%;
+  padding-top: 0;
+  justify-self: center;
+  background-color: white;
+  z-index: 3;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#single-project {
+  display: flex;
+  flex: 1 0 300px;
+  flex-direction: column;
+  background-color: $lightgrey;
+  padding: 4%;
+  margin: 2%;
+  border-radius: 20px;
+  min-width: 300px;
+}
+
+.prject-name {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding-bottom: 2%;
+}
+
+.project-screenshot {
+  max-width: 90%;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
+.project-description {
+  margin: 0;
+  padding-top: 2%;
+}
+
+.techStack-container {
+  max-width: 900px;
+  padding: 3%;
+  padding-top: 0;
+  padding-bottom: 10vh;
+  justify-self: center;
+  background-color: white;
+  z-index: 3;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-height: 6vh;
+  margin: 2%;
+}
