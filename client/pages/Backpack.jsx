@@ -13,6 +13,7 @@ import css from '../assets/logos/css-logo.png';
 import d3 from '../assets/logos/d3-logo.png';
 import docker from '../assets/logos/docker-logo.png';
 import express from '../assets/logos/express-logo.png';
+import firebase from '../assets/logos/firebase-logo.png';
 import git from '../assets/logos/git-logo.png';
 import html5 from '../assets/logos/html5-logo.png';
 import js from '../assets/logos/JavaScript-logo.png';
@@ -101,6 +102,7 @@ function Backpack() {
             <img src={git} alt='logo' className='logo' />
             <img src={aws} alt='logo' className='logo' />
             <img src={docker} alt='logo' className='logo' />
+            <img src={firebase} alt='logo' className='logo' />
             <img src={html5} alt='logo' className='logo' />
             <img src={css} alt='logo' className='logo' />
             <img src={sass} alt='logo' className='logo' />
