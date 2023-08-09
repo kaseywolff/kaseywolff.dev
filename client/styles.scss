@@ -1,0 +1,110 @@
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+// import color palett
+@import './styles/colorpalette.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+};
+
+h1 {
+  font-weight: 100;
+};
+
+.navBar {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: $verdigris;
+  padding: .2%;
+  width: 100%;
+  z-index: 9999;
+  // opacity: .8;
+};
+
+.navLink {
+  font-size: 2.5vh;
+  margin: 2vh;
+  padding: 1vh;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+};
+
+.navLink::before,
+.navLink::after {
+ content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+};
+
+.navLink::before {
+  background-color: $lightgrey;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+};
+
+
+.navLink:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+};
+.navLink:hover::after {
+  transform: translate3d(0, 0, 0);
+};
+
+.textLink {
+  &:link {
+    // font-weight: 100;
+    text-decoration: none;
+    color: $blue;
+  };
+  &:visited {
+    text-decoration: none;
+    color: $blue;
+  };
+  &:hover {
+    color: $rose;
+  };
+};
+
+
+// FOOTER 
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: $lightgrey;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  // overscroll-behavior: contain;
+};
+
+#connect-box {
+  display: flex;
+  justify-content: center;
+};
+
+.connect-logo {
+  max-height: 5vh;
+  margin: 2%;
+};
+
+.connect-a {
+  padding-left: 20%;
+  padding-right: 20%;
+};
