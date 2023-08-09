@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer'
-import HomePage from './pages/HomePage';
+import HomePage from './pages/Home';
 import About from './pages/About';
 import Backpack from  './pages/Backpack';
 import Map from './pages/Map';
