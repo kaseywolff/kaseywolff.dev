@@ -15,6 +15,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KASEYWOLFF_DEV_F8B96 }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KASEYWOLFFDEV }}'
           channelId: live
-          projectId: kaseywolff-dev-f8b96
+          projectId: kaseywolffdev
