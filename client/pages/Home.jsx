@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/home.scss';
 // import images
-import background from '../assets/images/banff-maligne-lake.jpg';
+import background from '../assets/images/banff-sunset.jpg';
 import main from '../assets/images/main-cover.png';
 import overlays from '../assets/images/geo-back.png';
 // import footer
