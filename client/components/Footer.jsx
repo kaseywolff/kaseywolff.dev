@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer'>
       <div id='connect-box'>
         <a className='connect-a' target='_blank' href='https://github.com/kaseywolff'><img src={github} className='connect-logo' /></a>
-        <a className='connect-a' target='_blank' href='https://linkedin.com/kaseywolff'><img src={linkedin} className='connect-logo' /></a>
+        <a className='connect-a' target='_blank' href='https://linkedin.com/in/kaseywolff'><img src={linkedin} className='connect-logo' /></a>
       </div>
       <p id='copyright'>© 2023 Kasey Wolff</p>
     </div>
