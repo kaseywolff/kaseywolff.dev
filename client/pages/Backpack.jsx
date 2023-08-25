@@ -70,6 +70,11 @@ function Backpack() {
                 <p className='project-description'>
                 An elevated, cleaner version of the classic minesweeper game - for coders.
                 </p>
+                <p className='project-description'>
+                  <a href='https://codesweeper.app' className='textLink'>  play game  </a>
+                  | 
+                  <a href='https://https://github.com/kaseywolff/Codesweeper' className='textLink'>  github code  </a>
+                </p>
               </div>
 
               <div id='single-project'>
