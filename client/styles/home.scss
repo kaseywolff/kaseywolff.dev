@@ -99,12 +99,13 @@
 .scrollDiv {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  // justify-self: center;
   // width: 100%;
   min-height: 100vh;
   z-index: 1;
-  // padding-top: 10vh;
+  // padding: 3vh;
 };
 
 #geoGroup {
@@ -117,8 +118,8 @@
   // width: 100%;
   justify-items: center;
   align-items: center;
-  padding-top: 15vh;
-  padding-bottom: 4vh;
+  padding-top: 6vmax;
+  // padding-bottom: 4vh;
 };
 
 #mainPhoto {
@@ -151,23 +152,26 @@
   height: 20vh;
   // max-width: 100vw;
   // height: 100%;
-  background-color: rgb(0, 0, 0, .2);
+  // background-color: rgb(0, 0, 0, .2);
   color: white;
   z-index: 1;
+  padding-bottom: 4vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
 };
 
 #slogan {
   display: flex;
-  position: absolute;
-  bottom: 0;
+  // position: absolute;
+  // bottom: 0;
   // max-height: 40vh;
   justify-content:center;
-  padding-top: 5vh;
-  padding-bottom: 2vh;
+  // padding-bottom: 2vh;
+  // padding-top: 5vh;
 
-  padding-left: 5vw;
-  padding-right: 5vw;
-  // margin: 1%;
+  // padding-left: 5vw;
+  // padding-right: 5vw;
+  // margin-top: 2%;
   // max-width: 100vw;
   font-size: 8vh;
 };
