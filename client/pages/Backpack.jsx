@@ -61,10 +61,6 @@ function Backpack() {
                   <a href='https://www.npmjs.com/package/recoilize' className='textLink'>  npm package  </a>
                 </p>
               </div>
-            </div>
-
-            <div className='project-list'>
-
               <div id='single-project'>
                 <h3 className='prject-name'>Codesweeper</h3>
                 <img src={codesweeper} className='project-screenshot' />
@@ -77,6 +73,10 @@ function Backpack() {
                   <a href='https://https://github.com/kaseywolff/Codesweeper' className='textLink'>  github code  </a>
                 </p>
               </div>
+            </div>
+
+            <div className='project-list'>
+
 
               <div id='single-project'>
                 <h3 className='prject-name'>Star Guides</h3>
