@@ -7,6 +7,7 @@ import background from '../assets/images/backpack.jpg';
 import recoilize from '../assets/gifs/recoilize.gif';
 import codesweeper from '../assets/gifs/codesweeper.gif';
 import starguides from '../assets/gifs/starguides.gif';
+import venturevault from '../assets/gifs/venturevault.gif'
 // import logos
 import aws from '../assets/logos/aws-logo.png';
 import css from '../assets/logos/css-logo.png';
@@ -82,6 +83,14 @@ function Backpack() {
                 <img src={starguides} className='project-screenshot' />
                 <p className='project-description'>
                 A customer relationship management tool to manage and organize client trips to national parks.
+                </p>
+              </div>
+
+              <div id='single-project'>
+                <h3 className='prject-name'>VentureVault</h3>
+                <img src={venturevault} className='project-screenshot' />
+                <p className='project-description'>
+                An app to organize and track each of your bucket list activities or travel destinations.
                 </p>
               </div>
             </div>
