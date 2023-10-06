@@ -22,7 +22,10 @@ function About() {
                 I am a Software Engineer who loves tackling and solving complex problems. I am someone who approaches new things with a sense of curiosity, wonder, and a genuine desire to understand how things work.
               </p>
               <p className='p-a'>
-                My current work has been in React and test driven development, but I work across the full stack. (<a href='/backpack' className='textLink'>open my backpack</a> to see what tools I use)
+                I began my journey as a Software Engineer in 2021. A team of engineers and I developed a program aimed to inform individuals of the potential costs and benefits of solar panel use in their homes. This somewhat simple program kicked of my passion for coding, and I have been hooked ever since.
+              </p>
+              <p className='p-a'>
+                My current work has been in React and test driven development, but I am confident working across the full stack. (<a href='/backpack' className='textLink'>open my backpack</a> to see what tools I use)
               </p>
               <p className='p-a'>
                 I am currently contributing to an open source product, Recoilize. Recoilize is a <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' target='_blank' className='textLink'>Chrome Extension</a> and <a href='https://www.npmjs.com/package/recoilize' target='_blank' className='textLink'>npm package</a> for developers building applications with <a href='https://recoiljs.org/' target='_blank' className='textLink'>Recoil.js</a>. It assists developers in visualizing state management, debugging, and improving the efficiency of their applications. Recoilize currently averages 61K+ weekly npm downloads.
