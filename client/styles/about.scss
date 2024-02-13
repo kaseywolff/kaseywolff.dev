@@ -29,10 +29,11 @@ body {
 
 .profilePhoto {
   position: relative;
-  margin-top: 10vh;
-  width: 60%;
-  max-width: 400px;
-  min-width: 300px;
+  margin-top: 5vh;
+  height: 50vh;
+  // width: 60%;
+  // max-width: 400px;
+  // min-width: 300px;
   z-index: 2;
   align-self: center;
   margin-bottom: 5vh;
@@ -50,7 +51,7 @@ body {
 .title-a {
   font-weight: 100;
   font-size: 2em;
-  padding-top: 1%;
+  padding-top: 3%;
   padding-bottom: 4%;
   margin: 0;
   align-self: left;

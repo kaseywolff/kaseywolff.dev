@@ -5,6 +5,7 @@
 @import './styles/colorpalette.scss';
 
 body {
+  color: $charcoal;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -65,14 +66,14 @@ h1 {
 .textLink {
   &:link {
     text-decoration: none;
-    color: $old-rose;
+    color: $verdigris;
   };
   &:visited {
     text-decoration: none;
-    color: $old-rose;
+    color: $verdigris;
   };
   &:hover {
-    color: $fawn;
+    color: $old-rose;
   };
 };
 

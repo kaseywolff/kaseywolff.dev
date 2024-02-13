@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 900px;
+  padding: 3%;
   padding-top: 60vh;
   max-width: 900px;
   justify-self: center;
@@ -31,7 +31,6 @@ body {
 .title-b {
   font-weight: 100;
   font-size: 2em;
-  max-width: 900px;
   padding: 3%;
   padding-bottom: 0;
   margin: 0;
@@ -77,11 +76,10 @@ body {
   z-index: 0;
   height: 60%;
   object-fit: cover;
-  object-position: 60% 70%;
+  object-position: 50% 20%;
 };
 
 .projects-container {
-  max-width: 900px;
   padding: 3%;
   padding-top: 0;
   justify-self: center;
@@ -99,7 +97,7 @@ body {
   display: flex;
   flex: 1 0 300px;
   flex-direction: column;
-  background-color: $lightgrey;
+  background-color: $peach;
   padding: 4%;
   margin: 2%;
   justify-content: space-between;
@@ -128,7 +126,6 @@ body {
 };
 
 .techStack-container {
-  max-width: 900px;
   padding: 3%;
   padding-top: 0;
   padding-bottom: 10vh;
