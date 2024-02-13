@@ -19,7 +19,7 @@ h1 {
   top: 0px;
   display: flex;
   justify-content: space-around;
-  background-color: $verdigris;
+  background-color: $moonstone;
   padding: .2%;
   width: 100%;
   z-index: 9999;
@@ -45,7 +45,7 @@ h1 {
 };
 
 .navLink::before {
-  background-color: $lightgrey;
+  background-color: $peach;
   height: 2px;
   bottom: 0;
   transform-origin: 100% 50%;
@@ -65,14 +65,14 @@ h1 {
 .textLink {
   &:link {
     text-decoration: none;
-    color: $blue;
+    color: $old-rose;
   };
   &:visited {
     text-decoration: none;
-    color: $blue;
+    color: $old-rose;
   };
   &:hover {
-    color: $rose;
+    color: $fawn;
   };
 };
 
@@ -81,7 +81,7 @@ h1 {
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: $lightgrey;
+  // background-color: $lightgrey;
   width: 100%;
   // height: 10vh;
   padding-top: 3%;
