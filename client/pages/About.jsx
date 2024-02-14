@@ -9,7 +9,6 @@ import profile from '../assets/images/headshot.png';
 function About() {
   return(
     <div>
-      {/* <img src={background} alt='background image' className='about-img' /> */}
 
       <div className='container hello'>
         <img className='headshot' src={profile} alt={'headshot'} />
@@ -55,7 +54,7 @@ function About() {
           </p>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );

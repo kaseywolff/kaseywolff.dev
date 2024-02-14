@@ -52,6 +52,7 @@ function Backpack() {
             <p className='description'>
               Recoilize is a Chrome Dev Tool designed for debugging applications built with the Recoil.js state management library.
             </p>
+            <br/>
             <p className='description'>
               <a href='https://www.recoilize.io/' className='textLink'> landing page  </a>
                 | 
@@ -67,6 +68,7 @@ function Backpack() {
               <p className='description'>
                 An elevated, cleaner version of the classic minesweeper game - for coders.
               </p>
+              <br/>
               <p className='description'>
                 <a href='https://codesweeper.app' className='textLink'>  play game  </a>
                 | 
