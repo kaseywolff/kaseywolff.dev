@@ -17,13 +17,14 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content:space-between;
+  justify-content: flex-start;
   width: 100vw;
   min-height: 100vh;
 };
 
 .backpack {
   background-image: url('../assets/images/backpack.jpg');
+  justify-content:space-between;
 };
 
 .header-backpack {
@@ -46,6 +47,7 @@ body {
 
 .projects {
   background-image: url('../assets/images/joshua-trees.jpg');
+  padding-bottom: 10vh;
 };
 
 .primary,

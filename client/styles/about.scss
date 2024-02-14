@@ -9,6 +9,10 @@ body {
   margin: 0;
 };
 
+p {
+  margin: 0;
+}
+
 // .about-img {
 //   position: fixed;
 //   width: 100vw;
@@ -22,12 +26,12 @@ body {
 
 .hello {
   background-image: url('../assets/images/tetons.jpg');
+  justify-content:space-between !important;
 };
 
 .headshot {
   position: relative;
   margin-top: 10vh;
-  // margin-bottom: 5vh;
   height: 60vh;
 };
 
@@ -40,8 +44,7 @@ body {
 
 .about {
   background-image: url('../assets/images/joshua-tree-night.jpg');
-  // justify-content: flex-start !important;
-  padding-bottom: 15vh;
+  // padding-bottom: 5vh;
 };
 
 .header-about {
@@ -50,7 +53,11 @@ body {
   color: $peach;
 };
 
+.single-card {
+  margin-bottom: 15vh;
+};
+
 .fun-facts {
   background-image: url('../assets/images/tent.jpg');
   justify-content: flex-start !important;
-}
+};

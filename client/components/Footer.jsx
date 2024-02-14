@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/about.scss';
-import github from '../assets/logos/github.png';
-import linkedin from '../assets/logos/linkedin.png';
+import github from '../assets/logos/github-logo.png';
+import linkedin from '../assets/logos/linkedin-logo.png';
 
 
 function Footer() {

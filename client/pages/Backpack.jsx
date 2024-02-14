@@ -120,8 +120,8 @@ function Backpack() {
           <img src={sass} alt='logo' className='logo' />
           <img src={d3} alt='logo' className='logo' />
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };
