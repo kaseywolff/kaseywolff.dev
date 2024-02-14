@@ -24,7 +24,7 @@ h1 {
   background-color: $moonstone;
   padding: .2%;
   width: 100%;
-  z-index: 9999;
+  z-index: 999;
 };
 
 .navLink {
@@ -44,6 +44,15 @@ h1 {
   position: absolute;
   width: 100%;
   left: 0;
+};
+
+.navLink.active {
+  color: $peach;
+};
+
+.navLink.active::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
 };
 
 .navLink::before {
