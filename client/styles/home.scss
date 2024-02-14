@@ -1,26 +1,32 @@
 .homePage {
+  background-image: url('../assets/images/cholla-sunrise.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-items: stretch;
+  width: 100%;
+  min-height: 100vh;
   // height: 120vh;
 };
 
-.backgroundPhoto {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  margin: 0px;
-  padding: 0px;
-  object-fit: cover;
-  object-position: 22% 50%;
-  // grid-row: 1;
-  // grid-column: 1;
-  z-index: 0;
-};
+// .backgroundPhoto {
+//   min-width: 100vw;
+//   height: 100%;
+//   position: fixed;
+//   top: 0px;
+//   bottom: 0px;
+//   margin: 0px;
+//   padding: 0px;
+//   object-fit: cover;
+//   // object-position: 22% 50%;
+//   // grid-row: 1;
+//   // grid-column: 1;
+//   z-index: 0;
+// };
 
 // .scrollDiv {
 //   display: flex;

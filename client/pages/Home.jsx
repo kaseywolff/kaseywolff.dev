@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/home.scss';
 // import images
-import background from '../assets/images/joshua-tree.jpg';
+// import background from '../assets/images/joshua-tree.jpg';
 import main from '../assets/images/main-cover.png';
 import overlays from '../assets/images/geo-back.png';
 // import footer
@@ -13,7 +13,7 @@ function HomePage() {
   return(
     <div className='homePage'>
 
-      <img src={background} alt='background image' className='backgroundPhoto' />
+      {/* <img src={background} alt='background image' className='backgroundPhoto' /> */}
 
       <div className='scrollDiv'>
         <div id='geoGroup'>
@@ -22,7 +22,7 @@ function HomePage() {
         </div>
 
         <div className='text'>
-          <h1 id='slogan'>Coding. Creating. Exploring.</h1>
+          <h1 id='slogan'>coding. creating. exploring.</h1>
         </div>
       </div>
       <Footer />
