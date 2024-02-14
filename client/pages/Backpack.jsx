@@ -34,8 +34,8 @@ import ts from '../assets/logos/ts-logo-256.png';
 
 function Backpack() {
   return(
-    <div className='backpack'>
-      <div className='container'>
+    <div>
+      <div className='container backpack'>
         <h1 className='header-backpack'>backpack</h1>
         <p className='subheader-backpack'>projects and tech stack.</p>
       </div>
@@ -46,13 +46,13 @@ function Backpack() {
         <h2 className='header-projects'>projects</h2>
         
         <div className='primary'>
-          <div className='project-card'>
+          <div className='card project-card'>
             <h3 href='https://www.recoilize.io/' className='project-name'>Recoilize</h3>
             <img src={recoilize} className='project-screenshot' />
-            <p className='project-description'>
+            <p className='description'>
               Recoilize is a Chrome Dev Tool designed for debugging applications built with the Recoil.js state management library.
             </p>
-            <p className='project-description'>
+            <p className='description'>
               <a href='https://www.recoilize.io/' className='textLink'> landing page  </a>
                 | 
                 <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='textLink'>  chrome extension  </a>
@@ -61,13 +61,13 @@ function Backpack() {
             </p>
           </div>
 
-            <div className='project-card'>
+            <div className='card project-card'>
               <h3 className='project-name'>Codesweeper</h3>
               <img src={codesweeper} className='project-screenshot' />
-              <p className='project-description'>
+              <p className='description'>
                 An elevated, cleaner version of the classic minesweeper game - for coders.
               </p>
-              <p className='project-description'>
+              <p className='description'>
                 <a href='https://codesweeper.app' className='textLink'>  play game  </a>
                 | 
                 <a href='https://https://github.com/kaseywolff/Codesweeper' className='textLink'>  github code  </a>
@@ -76,18 +76,18 @@ function Backpack() {
           </div>
 
         <div className='secondary'>
-          <div className='project-card'>
+          <div className='card project-card'>
             <h3 className='project-name'>Star Guides</h3>
             <img src={starguides} className='project-screenshot' />
-            <p className='project-description'>
+            <p className='description'>
               A customer relationship management tool to manage and organize client trips to national parks.
             </p>
           </div>
 
-          <div className='project-card'>
+          <div className='card project-card'>
             <h3 className='project-name'>VentureVault</h3>
             <img src={venturevault} className='project-screenshot' />
-            <p className='project-description'>
+            <p className='description'>
               An app to organize and track each of your bucket list activities or travel destinations.
             </p>
           </div>
@@ -98,7 +98,7 @@ function Backpack() {
 
       <div className='container tech-stack'>
         <h2 className='header-techstack'>tech stack</h2>
-        <div className='logo-container'>
+        <div className='card logo-card'>
           <img src={js} alt='logo' className='logo' />
           <img src={ts} alt='logo' className='logo' />
           <img src={reactLogo} alt='logo' className='logo' />
