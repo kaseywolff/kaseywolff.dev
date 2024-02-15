@@ -3,7 +3,6 @@ import '../styles/about.scss';
 // import components
 import Footer from '../components/Footer'
 // import images
-import background from '../assets/images/tetons.jpg';
 import profile from '../assets/images/headshot.png';
 
 function About() {

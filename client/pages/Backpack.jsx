@@ -1,8 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import '../styles/backpack.scss';
-// import images
-import background from '../assets/images/backpack.jpg';
 // import gifs
 import recoilize from '../assets/gifs/recoilize.gif';
 import codesweeper from '../assets/gifs/codesweeper.gif';
