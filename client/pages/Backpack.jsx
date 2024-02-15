@@ -32,7 +32,7 @@ import ts from '../assets/logos/ts-logo-256.png';
 
 function Backpack() {
   return(
-    <div>
+    <div className='page'>
       <div className='container backpack'>
         <h1 className='header-backpack'>backpack</h1>
         <p className='subheader-backpack'>projects and tech stack.</p>

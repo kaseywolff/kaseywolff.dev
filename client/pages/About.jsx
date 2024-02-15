@@ -7,7 +7,7 @@ import profile from '../assets/images/headshot.png';
 
 function About() {
   return(
-    <div>
+    <div className='page'>
 
       <div className='container hello'>
         <img className='headshot' src={profile} alt={'headshot'} />

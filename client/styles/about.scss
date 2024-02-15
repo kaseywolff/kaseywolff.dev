@@ -9,24 +9,9 @@ body {
   margin: 0;
 };
 
-p {
-  margin: 0;
-}
-
-// .about-img {
-//   position: fixed;
-//   width: 100vw;
-//   top: 0px;
-//   left: 0px;
-//   z-index: 0;
-//   height: 70vh;
-//   object-fit: cover;
-//   object-position: 70% 60%;
-// };
-
 .hello {
   background-image: url('../assets/images/tetons.jpg');
-  justify-content:space-between !important;
+  justify-content:space-between;
 };
 
 .headshot {
@@ -44,7 +29,7 @@ p {
 
 .about {
   background-image: url('../assets/images/joshua-tree-night.jpg');
-  // padding-bottom: 5vh;
+  justify-content: flex-start;
 };
 
 .header-about {
@@ -59,5 +44,5 @@ p {
 
 .fun-facts {
   background-image: url('../assets/images/el-cap-tent.jpg');
-  justify-content: flex-start !important;
+  justify-content: flex-start;
 };
