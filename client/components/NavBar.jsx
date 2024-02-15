@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 function NavBar({ currentLocation }) {
   return(
-  <div className="navBar">
-    <NavLink to='/' className={`navLink ${currentLocation === '/' ? 'active' : ''}`}>home</NavLink>
-    <NavLink to='/about' className={`navLink ${currentLocation === '/about' ? 'active' : ''}`}>about</NavLink>
-    <NavLink to='/backpack' className={`navLink ${currentLocation === '/backpack' ? 'active' : ''}`}>backpack</NavLink>
+  <div className="nav-bar">
+    <NavLink to='/' className={`nav-link ${currentLocation === '/' ? 'active' : ''}`}>home</NavLink>
+    <NavLink to='/about' className={`nav-link ${currentLocation === '/about' ? 'active' : ''}`}>about</NavLink>
+    <NavLink to='/backpack' className={`nav-link ${currentLocation === '/backpack' ? 'active' : ''}`}>backpack</NavLink>
   </div>
   );
 };

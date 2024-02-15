@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/about.scss';
-// import components
-import Footer from '../components/Footer'
 // import images
 import profile from '../assets/images/headshot.png';
 
@@ -53,8 +51,6 @@ function About() {
           </p>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };

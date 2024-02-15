@@ -3,9 +3,6 @@ import '../styles/home.scss';
 // import images
 import main from '../assets/images/home-geo.png';
 import overlays from '../assets/images/geo-back.png';
-// import footer
-import Footer from '../components/Footer';
-
 
 
 function HomePage() {
@@ -21,7 +18,6 @@ function HomePage() {
           <h1 id='slogan'>coding. creating. exploring.</h1>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

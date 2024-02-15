@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import '../styles/backpack.scss';
 // import gifs
 import recoilize from '../assets/gifs/recoilize.gif';
@@ -121,7 +120,6 @@ function Backpack() {
           <img src={d3} alt='logo' className='logo' />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
