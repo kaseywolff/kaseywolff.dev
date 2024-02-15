@@ -49,7 +49,7 @@ function About() {
           </p>
           <br/>
           <p>
-            I love camping, hiking, backpacking, bouldering, and skiing. I also enjoy capturing the beauty of nature through photography (all of the photos on the website were taken by me!). Painting is fun too, and I'm working on getting my private pilot license.
+            I lived full time in a van for almost a year and traveled to 25 National Parks and 30 US states/ Canadian Provinces. I've also hiked 250 miles of the Pacific Crest Trail, from Cascade Locks (Washington/ Oregon border) to Snoqualmie Pass, WA.
           </p>
         </div>
       </div>
