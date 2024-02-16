@@ -8,16 +8,16 @@ import linkedin from '../assets/logos/linkedin-logo.png';
 function Footer() {
   return(
     <div className='footer'>
-      <div id='connect-box'>
-        <a className='connect' target='_blank' href='https://github.com/kaseywolff'>
+      <div className='connect-container'>
+        <a className='connect-link' target='_blank' href='https://github.com/kaseywolff'>
           <img src={github} className='connect-icon' />
         </a>
         
-        <a className='connect' target='_blank' href='https://linkedin.com/in/kaseywolff'>
+        <a className='connect-link' target='_blank' href='https://linkedin.com/in/kaseywolff'>
           <img src={linkedin} className='connect-icon' />
         </a>
 
-        <a className='connect' href='mailto: kaseywolff.dev@gmail.com'>
+        <a className='connect-link' href='mailto: kaseywolff.dev@gmail.com'>
           <img src={email} className='connect-icon' />
         </a>
       </div>

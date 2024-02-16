@@ -34,35 +34,3 @@ p {
     color: $old-rose;
   };
 };
-
-
-// FOOTER 
-.footer {
-  display: flex;
-  flex-direction: column;
-  color: $peach;
-  background-color: $charcoal;
-  padding: 5vh;
-  margin-bottom: 0;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 3;
-};
-
-#connect-box {
-  display: flex;
-  justify-content: center;
-};
-
-.connect-icon {
-  max-height: 5vh;
-};
-
-.connect {
-  padding-left: 20%;
-  padding-right: 20%;
-};
-
-#copyright {
-  margin-top: 2vh;
-}
