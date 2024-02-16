@@ -28,20 +28,20 @@ function About() {
           </p>
           <br/>
           <p>
+            While navigating the dynamic landscape of software engineering, I also aim to strike the delicate balance between exploring innovative solutions and embracing proven approaches in my work. This blend of creativity and reliability ensures that my products are both forward-thinking and rooted in established methodology.
+          </p>
+          <br/>
+          <p>
             Whether I'm working with React, employing test-driven development, or delving into the intricacies of a SQL database, I bring a commitment to thoughtfulness and ingenuity in full-stack development. It's not just about writing code; it's about creating a foundation that opens doors to exploration, encourages creativity, facilitates understanding, and paves the way for long-term success.
           </p>
-          <br/>
+          {/* <br/>
           <p>
-            In navigating the dynamic landscape of software engineering, I strive for the delicate balance between exploring innovative solutions and embracing proven approaches. This blend of creativity and reliability ensures that my work is both forward-thinking and grounded in the stability of established methodologies.
-          </p>
-          <br/>
-          <p>
-            My contributions to Recoilize, a <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' target='_blank' className='hyperlink'>Chrome Extension</a> and <a href='https://www.npmjs.com/package/recoilize' target='_blank' className='hyperlink'>npm package</a>, reflect this dedication. As a core contributor, I am passionate about enhancing developers' experiences by visualizing state management, debugging efficiently, and ultimately elevating the quality of their <a href='https://recoiljs.org/' target='_blank' className='hyperlink'>Recoil.js</a> applications.
+            I currenty channel my passion into elevating developers' experiences with my work on Recoilize. Within this role, my focus spans the visualization of state management, the streamlining of debugging processes, and, ultimately, the enhancement of <a href='https://recoiljs.org/' target='_blank' className='hyperlink'>Recoil.js</a> applications. It's more than code; it's a commitment to sculpting an environment where developers thrive, where every line written is a deliberate step towards enhancing the quality and efficiency of their projects.
           </p>
           <br/>
           <p>
             In addition to my work on Recoilize, I have launched and am actively pursuing a handful of personal projects as well. Checkout my <a href='http://github.com/kaseywolff' target='_blank' className='hyperlink'>Github</a> to discover my latest creations.
-          </p>
+          </p> */}
         </div>
       </div>
 

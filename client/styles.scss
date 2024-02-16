@@ -116,6 +116,9 @@ and (max-device-width : 1024px) {
   .container {
     background-attachment: initial;
   };
+  .card {
+    background-color: rgba(white, .8);
+  };
   .projects {
     background-position-x: 70%
   };
