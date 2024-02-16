@@ -1,8 +1,9 @@
 // import fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
-
 // import color palett
 @import './styles/colorpalette.scss';
+
+
 
 body {
   background-color: white;
@@ -25,7 +26,7 @@ h2 {
 
 p {
   margin: 0;
-  text-align: left;
+  text-align: justify;
 };
 
 .hyperlink {
