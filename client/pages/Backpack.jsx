@@ -98,26 +98,26 @@ function Backpack() {
       <div className='container tech-stack'>
         <h2 className='header-techstack'>tech stack</h2>
         <div className='card logo-card'>
-          <img src={js} alt='logo' className='logo' />
-          <img src={ts} alt='logo' className='logo' />
-          <img src={reactLogo} alt='logo' className='logo' />
-          <img src={reactRouter} alt='logo' className='logo' />
-          <img src={redux} alt='logo' className='logo' />
-          <img src={express} alt='logo' className='logo' />
-          <img src={node} alt='logo' className='logo' />
-          <img src={mongodb} alt='logo' className='logo' />
-          <img src={postgres} alt='logo' className='logo' />
-          <img src={jest} alt='logo' className='logo' />
-          <img src={testing} alt='logo' className='logo' />
-          <img src={npm} alt='logo' className='logo' />
-          <img src={git} alt='logo' className='logo' />
-          <img src={aws} alt='logo' className='logo' />
-          <img src={docker} alt='logo' className='logo' />
-          <img src={firebase} alt='logo' className='logo' />
-          <img src={html5} alt='logo' className='logo' />
-          <img src={css} alt='logo' className='logo' />
-          <img src={sass} alt='logo' className='logo' />
-          <img src={d3} alt='logo' className='logo' />
+          <img src={js} alt='javascript logo' className='logo' title='javascript'/>
+          <img src={ts} alt='typescript logo' className='logo' title='typescript'/>
+          <img src={reactLogo} alt='react logo' className='logo' title='react'/>
+          <img src={reactRouter} alt='react router logo' className='logo' title='react router'/>
+          <img src={redux} alt='redux logo' className='logo' title='redux'/>
+          <img src={express} alt='express.js logo' className='logo' title='express'/>
+          <img src={node} alt='node.js logo' className='logo' title='node.js'/>
+          <img src={mongodb} alt='mongodb logo' className='logo' title='mongodb'/>
+          <img src={postgres} alt='postgreSQL logo' className='logo' title='postreSQL'/>
+          <img src={jest} alt='jest logo' className='logo' title='jest'/>
+          <img src={testing} alt='react testing library logo' className='logo' title='react testing library'/>
+          <img src={npm} alt='npm logo' className='logo' title='npm'/>
+          <img src={git} alt='git logo' className='logo' title='git'/>
+          <img src={aws} alt='aws logo' className='logo' title='aws'/>
+          <img src={docker} alt='docker logo' className='logo' title='docker'/>
+          <img src={firebase} alt='firebase logo' className='logo' title='firebase'/>
+          <img src={html5} alt='html5 logo' className='logo' title='html5'/>
+          <img src={css} alt='css logo' className='logo' title='css'/>
+          <img src={sass} alt='scss logo' className='logo' title='scss'/>
+          <img src={d3} alt=' d3 logo' className='logo' title='d3'/>
         </div>
       </div>
     </div>

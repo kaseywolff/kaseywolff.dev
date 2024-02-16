@@ -74,9 +74,32 @@ p {
   margin-bottom: 15vh;
 };
 
+.scroll {
+  font-size: 4vmin;
+  border-radius: 5px;
+  border: none;
+  background-color: $moonstone;
+  position: fixed;
+  bottom: 5vmin;
+  right: 5vmin;
+  width: 6vmin;
+  height: 6vmin;
+  opacity: 0;
+  // pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  };
+};
+
 
 @media only screen
 and (max-device-width : 1024px) {
+  .scroll {
+    display: none;
+  }
   .container {
     background-attachment: initial;
   };

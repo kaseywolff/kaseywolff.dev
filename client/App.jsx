@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/Home';
 import About from './pages/About';
 import Backpack from  './pages/Backpack';
+import Scroll from './components/Scroll';
 
 // import './styles/nav-footer.scss';
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <NavBar currentLocation={location.pathname}/>
-      <div className='container'>
+      <div>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<About />} />
@@ -22,6 +23,7 @@ function App() {
         </Routes>
       </div>
       <Footer/>
+      <Scroll/>
     </>
   );
 };
