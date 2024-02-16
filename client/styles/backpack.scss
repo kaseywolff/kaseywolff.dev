@@ -68,11 +68,10 @@
 };
 
 .logo-card {
-  flex-direction: row;
+  flex-direction: row !important;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 15vh;
-  width: 90vw;
+  width: 90vw !important;
 };
 
 .logo {
