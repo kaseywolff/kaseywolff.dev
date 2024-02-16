@@ -9,7 +9,7 @@ function About() {
 
       <div className='container hello'>
         <img className='headshot' src={profile} alt={'headshot'} />
-        <div className='header-about'>hello! i'm Kasey.</div>
+        <div className='header-hello'>hello! i'm Kasey.</div>
       </div>
 
       <div className='blank'></div>
@@ -17,7 +17,7 @@ function About() {
       <div className='container about'>
         <h2 className='header-about'>about</h2>
 
-        <div className='card description single-card'>
+        <div className='card single-card'>
           <p>
             I am a Software Engineer who loves tackling and solving complex problems. I am someone who approaches new things with a sense of curiosity, wonder, and a genuine desire to understand how things work.
           </p>
@@ -41,7 +41,7 @@ function About() {
       <div className='container fun-facts'>
         <h2 className='header-about'>fun facts</h2>
 
-        <div className='card description single-card'>
+        <div className='card single-card'>
           <p>
             I love camping, hiking, backpacking, bouldering, and skiing. I also enjoy capturing the beauty of nature through photography (all of the photos on the website were taken by me!). Painting is fun too, and I'm working on getting my private pilot license.
           </p>

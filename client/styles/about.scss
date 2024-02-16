@@ -4,10 +4,6 @@
 // import color palette
 @import 'colorpalette.scss';
 
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-};
 
 .hello {
   background-image: url('../assets/images/tetons.jpg');
@@ -20,28 +16,30 @@ body {
   height: 60vh;
 };
 
-.header-about {
+
+// headers
+.header-hello {
   font-size: 12vmin;
   font-weight: 100;
   color: $peach;
   margin-bottom: 7vh;
 };
 
+.header-about {
+  font-size: 10vmin;
+  font-weight: 100;
+  color: $peach;
+};
+
+
+// about section
 .about {
   background-image: url('../assets/images/joshua-tree-night.jpg');
   justify-content: flex-start;
 };
 
-.header-about {
-  font-weight: 100;
-  font-size: 10vmin;
-  color: $peach;
-};
 
-.single-card {
-  margin-bottom: 15vh;
-};
-
+// fun facts section
 .fun-facts {
   background-image: url('../assets/images/el-cap-tent.jpg');
   justify-content: flex-start;
