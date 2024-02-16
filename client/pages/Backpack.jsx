@@ -46,30 +46,30 @@ function Backpack() {
           <div className='card project-card'>
             <h3 href='https://www.recoilize.io/' className='project-name'>Recoilize</h3>
             <img src={recoilize} className='project-screenshot' />
-            <p className='description'>
+            <p>
               Recoilize is a Chrome Dev Tool designed for debugging applications built with the Recoil.js state management library.
             </p>
             <br/>
-            <p className='description'>
-              <a href='https://www.recoilize.io/' className='textLink'> landing page  </a>
+            <p>
+              <a href='https://www.recoilize.io/' className='hyperlink'> landing page  </a>
                 | 
-                <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='textLink'>  chrome extension  </a>
+                <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='hyperlink'>  chrome extension  </a>
                 | 
-                <a href='https://www.npmjs.com/package/recoilize' className='textLink'>  npm package  </a>
+                <a href='https://www.npmjs.com/package/recoilize' className='hyperlink'>  npm package  </a>
             </p>
           </div>
 
             <div className='card project-card'>
               <h3 className='project-name'>Codesweeper</h3>
               <img src={codesweeper} className='project-screenshot' />
-              <p className='description'>
+              <p>
                 An elevated, cleaner version of the classic minesweeper game - for coders.
               </p>
               <br/>
-              <p className='description'>
-                <a href='https://codesweeper.app' className='textLink'>  play game  </a>
+              <p>
+                <a href='https://codesweeper.app' className='hyperlink'>  play game  </a>
                 | 
-                <a href='https://https://github.com/kaseywolff/Codesweeper' className='textLink'>  github code  </a>
+                <a href='https://https://github.com/kaseywolff/Codesweeper' className='hyperlink'>  github code  </a>
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Backpack() {
           <div className='card project-card'>
             <h3 className='project-name'>Star Guides</h3>
             <img src={starguides} className='project-screenshot' />
-            <p className='description'>
+            <p>
               A customer relationship management tool to manage and organize client trips to national parks.
             </p>
           </div>
@@ -86,7 +86,7 @@ function Backpack() {
           <div className='card project-card'>
             <h3 className='project-name'>VentureVault</h3>
             <img src={venturevault} className='project-screenshot' />
-            <p className='description'>
+            <p>
               An app to organize and track each of your bucket list activities or travel destinations.
             </p>
           </div>

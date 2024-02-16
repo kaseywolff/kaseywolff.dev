@@ -21,7 +21,7 @@ p {
   text-align: left;
 };
 
-.textLink {
+.hyperlink {
   &:link {
     text-decoration: none;
     color: $moonstone;
@@ -33,4 +33,34 @@ p {
   &:hover {
     color: $old-rose;
   };
+};
+
+.container {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+};
+
+.blank {
+  width: 100%;
+  min-height: 60vh;
+  background-color: $old-rose;
+};
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80vmin;
+  color: $charcoal;
+  background-color: rgba($color: white, $alpha: .9);
+  border-radius: 15px;
+  padding: 3vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 };

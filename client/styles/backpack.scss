@@ -4,29 +4,13 @@
 // import color palette
 @import 'colorpalette.scss';
 
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-};
-
-.container {
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  // width: 100vw;
-  min-height: 100vh;
-};
 
 .backpack {
   background-image: url('../assets/images/assiniboine-backpack.jpg');
   justify-content:space-between;
 };
 
+// headers
 .header-backpack {
   font-size: 20vmin;
   color: $peach;
@@ -39,24 +23,6 @@ body {
   margin-bottom: 10vmin;
 };
 
-.blank {
-  width: 100%;
-  min-height: 60vh;
-  background-color: $old-rose;
-}
-
-.projects {
-  background-image: url('../assets/images/joshua-tree-sunset.jpg');
-  justify-content: flex-start;
-  padding-bottom: 10vh;
-};
-
-.primary,
-.secondary {
-  margin: 0;
-  padding: 0;
-};
-
 .header-projects,
 .header-techstack {
   font-weight: 100;
@@ -64,28 +30,16 @@ body {
   color: $peach;
 };
 
-.card {
-  display: flex;
-  flex-direction: column;
-  width: 80vmin;
-  color: $charcoal;
-  background-color: rgba($color: white, $alpha: .9);
-  border-radius: 15px;
-  padding: 3vh;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+
+// projects section
+.projects {
+  background-image: url('../assets/images/joshua-tree-sunset.jpg');
+  justify-content: flex-start;
+  padding-bottom: 10vh;
 };
 
 .project-card {
   align-items: flex-start;
-};
-
-.logo-card {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 15vh;
-  width: 90vw;
 };
 
 .project-name {
@@ -100,9 +54,25 @@ body {
   margin-bottom: 3vh;
 };
 
+.primary,
+.secondary {
+  margin: 0;
+  padding: 0;
+};
+
+
+// tech stack section
 .tech-stack {
   background-image: url('../assets/images/alien-throne.jpg');
   justify-content: flex-start;
+};
+
+.logo-card {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15vh;
+  width: 90vw;
 };
 
 .logo {
