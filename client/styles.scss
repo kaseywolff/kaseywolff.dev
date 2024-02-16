@@ -16,6 +16,13 @@ h1 {
   font-weight: 100;
 };
 
+h2 {
+  font-size: 10vmin;
+  font-weight: 100;
+  color: $peach;
+  margin-bottom: 3vh;
+};
+
 p {
   margin: 0;
   text-align: left;
@@ -63,7 +70,7 @@ p {
   flex-direction: column;
   width: 80vmin;
   color: $charcoal;
-  background-color: rgba($color: white, $alpha: .9);
+  background-color: rgba(white, .9);
   border-radius: 15px;
   padding: 3vh;
   margin-top: 3vh;

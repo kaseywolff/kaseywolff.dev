@@ -40,7 +40,7 @@ function Backpack() {
       <div className='blank'></div>
         
       <div className='container projects'>
-        <h2 className='header-projects'>projects</h2>
+        <h2>projects</h2>
         
         <div className='primary'>
           <div className='card project-card'>
@@ -96,7 +96,7 @@ function Backpack() {
       <div className='blank'></div>
 
       <div className='container tech-stack'>
-        <h2 className='header-techstack'>tech stack</h2>
+        <h2>tech stack</h2>
         <div className='card logo-card'>
           <img src={js} alt='javascript logo' className='logo' title='javascript'/>
           <img src={ts} alt='typescript logo' className='logo' title='typescript'/>

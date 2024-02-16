@@ -37,9 +37,7 @@ export default function Scroll() {
 
   return (
     <button
-      className={`scroll ${isVisible ? 'visible' : 'hidden'} ${
-        isClicked ? 'clicked' : ''
-      }`}
+      className={`scroll ${isVisible ? 'visible' : 'hidden'} ${isClicked ? 'clicked' : ''}`}
       onClick={scrollToTop}
       title='scroll to top'
     >
