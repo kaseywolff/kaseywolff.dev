@@ -16,7 +16,7 @@ import git from '../assets/logos/git-logo.png';
 import html5 from '../assets/logos/html5-logo.png';
 import js from '../assets/logos/JavaScript-logo.png';
 import jest from '../assets/logos/jest-logo.png';
-import mongodb from '../assets/logos/MongoDB-logo.png';
+import mongodb from '../assets/logos/mongodb-leaf-logo.png';
 import next from '../assets/logos/next-logo.png';
 import node from '../assets/logos/node-logo.png';
 import npm from '../assets/logos/npm-square-logo.png';
