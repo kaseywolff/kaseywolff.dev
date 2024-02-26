@@ -17,6 +17,7 @@ import html5 from '../assets/logos/html5-logo.png';
 import js from '../assets/logos/JavaScript-logo.png';
 import jest from '../assets/logos/jest-logo.png';
 import mongodb from '../assets/logos/MongoDB-logo.png';
+import next from '../assets/logos/next-logo.png';
 import node from '../assets/logos/node-logo.png';
 import npm from '../assets/logos/npm-logo.png';
 import postgres from '../assets/logos/PostgreSQL-logo.png';
@@ -102,6 +103,7 @@ function Backpack() {
           <img src={ts} alt='typescript logo' className='logo' title='typescript'/>
           <img src={reactLogo} alt='react logo' className='logo' title='react'/>
           <img src={reactRouter} alt='react router logo' className='logo' title='react router'/>
+          <img src={next} alt='next.js logo' className='logo' title='next.js'/>
           <img src={redux} alt='redux logo' className='logo' title='redux'/>
           <img src={express} alt='express.js logo' className='logo' title='express'/>
           <img src={node} alt='node.js logo' className='logo' title='node.js'/>
