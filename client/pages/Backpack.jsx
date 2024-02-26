@@ -19,7 +19,7 @@ import jest from '../assets/logos/jest-logo.png';
 import mongodb from '../assets/logos/MongoDB-logo.png';
 import next from '../assets/logos/next-logo.png';
 import node from '../assets/logos/node-logo.png';
-import npm from '../assets/logos/npm-logo.png';
+import npm from '../assets/logos/npm-square-logo.png';
 import postgres from '../assets/logos/PostgreSQL-logo.png';
 import reactLogo from '../assets/logos/react-logo.png';
 import reactRouter from '../assets/logos/react-router-logo.png';
