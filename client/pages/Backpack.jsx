@@ -52,11 +52,9 @@ function Backpack() {
             </p>
             <br/>
             <p>
-              <a href='https://www.recoilize.io/' className='hyperlink'>  landing page  </a>
+              <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='hyperlink'>  chrome extension  </a>
                 | 
-                <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik' className='hyperlink'>  chrome extension  </a>
-                | 
-                <a href='https://www.npmjs.com/package/recoilize' className='hyperlink'>  npm package  </a>
+              <a href='https://www.npmjs.com/package/recoilize' className='hyperlink'>  npm package  </a>
             </p>
           </div>
 
