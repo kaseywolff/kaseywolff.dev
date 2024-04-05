@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/home.scss';
+// import components
+import Loading from '../components/Loading';
 // import images
 import main from '../assets/images/home-geo.png';
 import overlays from '../assets/images/geo-back.png';
@@ -14,9 +16,9 @@ function HomePage() {
 
   return (
     <div className='page'>
-      {!loaded && <div className='loading'>Loading...</div>}
+      {!loaded && <Loading />}
       <div
-        style={{ display: loaded ? 'block' : 'none' }}
+        style={{ display: loaded ? 'flex' : 'none' }}
         className='container home'
         onLoad={handleContainerLoad}
       >

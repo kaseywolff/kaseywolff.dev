@@ -7,14 +7,18 @@
 
 .hello {
   background-image: url('../assets/images/tetons.jpg');
-  justify-content:space-between;
-};
+  justify-content: space-between;
+}
+
+;
 
 .headshot {
   position: relative;
   margin-top: 10vh;
   height: 60vh;
-};
+}
+
+;
 
 
 // headers
@@ -23,18 +27,24 @@
   font-weight: 100;
   color: $peach;
   margin-bottom: 7vh;
-};
+}
+
+;
 
 
 // about section
 .about {
   background-image: url('../assets/images/joshua-tree-night.jpg');
   justify-content: flex-start;
-};
+}
+
+;
 
 
 // fun facts section
 .fun-facts {
   background-image: url('../assets/images/el-cap-tent.jpg');
   justify-content: flex-start;
-};
+}
+
+;
