@@ -7,14 +7,14 @@
 
 .hello {
   background-image: url('../assets/images/tetons.jpg');
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 ;
 
 .headshot {
   position: relative;
-  margin-top: 10vh;
+  // margin-top: 8vh;
   height: 60vh;
 }
 
@@ -26,7 +26,7 @@
   font-size: 12vmin;
   font-weight: 100;
   color: $peach;
-  margin-bottom: 7vh;
+  margin-bottom: 15vh;
 }
 
 ;

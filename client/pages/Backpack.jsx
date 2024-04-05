@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/backpack.scss';
+// import components
+import Loading from '../components/Loading';
 // import gifs
 import recoilize from '../assets/gifs/recoilize.gif';
 import codesweeper from '../assets/gifs/codesweeper.gif';
@@ -32,16 +34,35 @@ import ts from '../assets/logos/ts-logo-256.png';
 
 
 function Backpack() {
+  const [backpackLoaded, setBackpackLoaded] = useState(false);
+  const [projectsLoaded, setProjectsLoaded] = useState(false);
+  const [techStackLoaded, setTechStackLoaded] = useState(false);
+
+  useEffect(() => {
+    setBackpackLoaded(true)
+  }, [backpackLoaded]);
+
+  useEffect(() => {
+    setProjectsLoaded(true)
+  }, [projectsLoaded]);
+
+  useEffect(() => {
+    setTechStackLoaded(true)
+  }, [techStackLoaded]);
+
   return (
     <div className='page'>
-      <div className='container backpack'>
+
+      {!backpackLoaded && <Loading />}
+      <div className='container backpack' style={{ display: backpackLoaded ? 'flex' : 'none' }}>
         <h1 className='header-backpack'>backpack</h1>
         <p className='subheader-backpack'>projects and tech stack.</p>
       </div>
 
       <div className='blank'></div>
 
-      <div className='container projects'>
+      {!projectsLoaded && <Loading />}
+      <div className='container projects' style={{ display: projectsLoaded ? 'flex' : 'none' }}>
         <h2>projects</h2>
 
         <div className='primary'>
@@ -95,7 +116,8 @@ function Backpack() {
 
       <div className='blank'></div>
 
-      <div className='container tech-stack'>
+      {!techStackLoaded && <Loading />}
+      <div className='container tech-stack' style={{ display: techStackLoaded ? 'flex' : 'none' }}>
         <h2>tech stack</h2>
         <div className='card logo-card'>
           <img src={js} alt='javascript logo' className='logo' title='javascript' />

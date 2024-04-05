@@ -4,9 +4,7 @@ import '../styles/about.scss';
 import Loading from '../components/Loading';
 // import images
 import profile from '../assets/images/headshot.png';
-import tetons from '../assets/images/tetons.jpg';
-import jtnp from '../assets/images/joshua-tree-night.jpg';
-import tent from '../assets/images/el-cap-tent.jpg';
+
 
 
 function About() {

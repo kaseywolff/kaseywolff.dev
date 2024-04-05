@@ -7,21 +7,28 @@
 
 .backpack {
   background-image: url('../assets/images/assiniboine-backpack.jpg');
-  justify-content:space-between;
-};
+  justify-content: space-between;
+}
+
+;
 
 // headers
 .header-backpack {
   font-size: 20vmin;
   color: $peach;
-  margin-top: 20vmin;
-};
+  padding-top: 0;
+  margin-top: 11vmin;
+}
+
+;
 
 .subheader-backpack {
   font-size: 5vmin;
   color: $peach;
-  margin-bottom: 10vmin;
-};
+  padding-bottom: 19vmin;
+}
+
+;
 
 
 // projects section
@@ -29,45 +36,61 @@
   background-image: url('../assets/images/joshua-tree-sunset.jpg');
   justify-content: flex-start;
   padding-bottom: 10vh;
-};
+}
+
+;
 
 .project-card {
   align-items: flex-start;
-};
+}
+
+;
 
 .project-name {
   font-size: 5vmin;
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 1vh;
-};
+}
+
+;
 
 .project-screenshot {
   width: 100%;
   margin-bottom: 3vh;
-};
+}
+
+;
 
 .primary,
 .secondary {
   margin: 0;
   padding: 0;
-};
+}
+
+;
 
 
 // tech stack section
 .tech-stack {
   background-image: url('../assets/images/alien-throne.jpg');
   justify-content: flex-start;
-};
+}
+
+;
 
 .logo-card {
   flex-direction: row !important;
   flex-wrap: wrap;
   justify-content: center;
   width: 90vw !important;
-};
+}
+
+;
 
 .logo {
   max-height: 6vh;
   margin: 2%;
-};
+}
+
+;
