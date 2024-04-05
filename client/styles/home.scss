@@ -1,15 +1,18 @@
 .home {
   background-image: url('../assets/images/cholla-sunrise.jpg');
   justify-content: space-evenly;
-};
+}
+
+;
 
 #geo-group {
   display: grid;
   max-height: 60vmin;
   justify-items: center;
   align-items: center;
-  padding-top: 6vmax;
-};
+}
+
+;
 
 #mainPhoto {
   grid-column: 1;
@@ -18,7 +21,9 @@
   width: 90vmin;
   max-width: 60vh;
   max-height: 60vh;
-};
+}
+
+;
 
 #overlays {
   grid-column: 1;
@@ -27,7 +32,9 @@
   max-width: 55vh;
   max-height: 55vh;
   opacity: .5;
-};
+}
+
+;
 
 .slogan-container {
   display: flex;
@@ -38,10 +45,14 @@
   padding-bottom: 4vh;
   padding-left: 5vw;
   padding-right: 5vw;
-};
+}
+
+;
 
 #slogan {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   font-size: 8vh;
-};
+}
+
+;

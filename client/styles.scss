@@ -39,19 +39,66 @@ p {
 
 ;
 
-.loading {
-  color: $moonstone;
+.loading-container {
+  color: $fawn;
   top: 0;
   left: 0;
-  width: 100vw;
   height: 100vh;
-  background-color: rgba(white, 0.8);
+  background-color: $cerulean;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  font-size: 24px;
+  font-size: 5vh;
+
+  #loading-img {
+    height: 25vh;
+    margin: 3vmin;
+  }
 }
+
+.loading-text {
+  display: flex;
+}
+
+.loading-text:after {
+  content: '< Loading />'; // Start with an empty content
+  animation: dots 3s steps(6, end) infinite; // 2s total duration for all steps
+}
+
+@keyframes dots {
+  0% {
+    content: '< Loading />'; // Initial state is empty
+  }
+
+  16.66% {
+    content: '< Loading . />'; // First dot appears
+  }
+
+  33.33% {
+    content: '< Loading .. />'; // Second dot appears
+  }
+
+  50% {
+    content: '< Loading ... />'; // Third dot appears
+  }
+
+  66.66% {
+    content: '< Loading .. />'; // Fourth dot appears
+  }
+
+  83.33% {
+    content: '< Loading . />'; // Fifth dot appears
+  }
+
+  100% {
+    content: '< Loading />'; // Reset the sequence
+  }
+}
+
+
+
 
 .hyperlink {
   &:link {
