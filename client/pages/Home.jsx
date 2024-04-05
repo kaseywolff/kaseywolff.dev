@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/home.scss';
 // import images
 import main from '../assets/images/home-geo.png';
@@ -6,9 +6,20 @@ import overlays from '../assets/images/geo-back.png';
 
 
 function HomePage() {
-  return(
+  const [loaded, setLoaded] = useState(false);
+
+  const handleContainerLoad = () => {
+    setLoaded(true);
+  };
+
+  return (
     <div className='page'>
-      <div className='container home'>
+      {!loaded && <div className='loading'>Loading...</div>}
+      <div
+        style={{ display: loaded ? 'block' : 'none' }}
+        className='container home'
+        onLoad={handleContainerLoad}
+      >
         <div id='geo-group'>
           <img src={main} alt='main image' id='mainPhoto' />
           <img src={overlays} alt='overlays' id='overlays' />
