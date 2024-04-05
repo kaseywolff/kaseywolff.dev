@@ -3,7 +3,7 @@ import '../styles/home.scss';
 // import components
 import Loading from '../components/Loading';
 // import images
-import main from '../assets/images/home-geo.png';
+import main from '../assets/images/tech-tree.png';
 import overlays from '../assets/images/geo-back.png';
 
 
